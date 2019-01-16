@@ -1,4 +1,11 @@
 
+/*
+ * Given an image represented by NXN matrix, where each pixel in the image is 4 bytes, write a method to rotate the image 
+ * by 90 degree. 
+ *
+ */
+
+//Algorithm to do it in-place
 public class RotateMatrix {
 	
 	public void rotateMatrix(int[][] nums) {
