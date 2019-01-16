@@ -1,6 +1,6 @@
 public class UniqueCharacters {
 	boolean isUnique(String s) {
-		int[] counts = new int[128]; //Assumption that the character set is ASCII
+		int[] counts = new int[128]; //Assumption that the character set is lower case set of letters
 		
 		for(Character c:s.toCharArray()) {
 			//If character is previously seen, return false. Else, increment counts array
