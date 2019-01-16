@@ -1,3 +1,8 @@
+/*
+ * Given two arrays of integers, compute pair of values (one value from each array) with smallest (non-negative) difference. 
+ * Return the difference
+ */
+
 import java.util.Arrays;
 
 public class SmallestDifference {
